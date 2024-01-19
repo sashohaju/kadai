@@ -1,0 +1,25 @@
+@charset "UTF-8" ;
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  html {font-size: 16px;}
+  body {
+    font-size: 20px;
+    background-image: url(img/back.gif);
+    background-repeat: repeat-x ;
+    background-attachment: fixed;
+  }
+  div {color: darkblue;}
+  span {color: orange;
+  font-size:1.2em ;}
+  .rem {font-size: 1.2rem;}
+  img {
+    width: 200px;
+    border: none;
+    vertical-align: middle;
+    float: left;
+  }
+  .float-clear{
+    clear: both;
+  }
